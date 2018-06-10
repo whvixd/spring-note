@@ -287,6 +287,8 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 
 	/**
 	 * Process the given alias element, registering the alias with the registry.
+	 *
+	 * 解析Alias属性
 	 */
 	protected void processAliasRegistration(Element ele) {
 		String name = ele.getAttribute(NAME_ATTRIBUTE);
